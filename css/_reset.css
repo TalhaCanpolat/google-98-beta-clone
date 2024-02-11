@@ -1,0 +1,22 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: #fff;
+    font-size: 15px;
+}
+
+img{
+    max-width: 100%;
+}
+
+footer{
+    margin-top: 10px;
+}
+
+a{
+    color: blue;
+}

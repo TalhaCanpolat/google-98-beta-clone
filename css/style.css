@@ -1,0 +1,63 @@
+@import url("_reset.css");
+
+main {
+    text-align: center;
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    width: 98%;
+}
+
+.img-wrapper {
+    text-align: center;
+    margin-top: 8px;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #EEEEEE;
+}
+
+form input {
+    width: 40%;
+}
+
+.links {
+    display: flex;
+    justify-content: space-around;
+    text-align: center;
+    gap: 4px;
+    margin-top: 4px;
+}
+
+.links * {
+    display: flex;
+    flex-direction: column;
+    flex: 1;
+}
+
+.links .links-other-browser {
+    background-color: #7EE5DA;
+}
+
+.links .links-about {
+    background-color: #70CCC2;
+}
+
+.links .links-contact {
+    background-color: #62B3AA;
+    align-items: center;
+    flex: 2;
+}
+
+
+
+.links-contact-footer{
+    display: flex;
+    align-items: center;
+    flex-direction: unset;
+}
